@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+header {
+  background-color: #1a1a1a; /* dark gray */
+  color: #ffffff;     
+  padding: 10px 20px;
+}
+nav {
+  display: inline-block;
+}
