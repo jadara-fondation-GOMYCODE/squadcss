@@ -1,0 +1,33 @@
+*{   
+    margin: 0;
+    padding: 0;
+}
+body {
+    header {      
+        nav {
+            background-color:#121634 ;
+            height: 80px;
+            ul {
+                text-align: center;
+                /* vertical-align: center;                   */
+                li {
+                    /* margin-top: 30px; */
+                    display: inline-block;
+                    list-style: none;  
+                    margin:30px 50px;
+                    a{
+                        color: rgb(232, 236, 236);
+                        text-decoration:none;
+                        font-size: large;
+                    }
+                }
+                #language{
+                    background-color: rgb(254, 254, 254);
+                    color: rgba(27, 2, 255, 0.329);
+                    padding: 3px;
+                }
+            }
+
+        }
+    }
+}
