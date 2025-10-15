@@ -1,15 +1,20 @@
-/* Body: kayn fih reset margin o font */
+
 body {
+
+  background-image: url("OIP\ \(1\).webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Nav: container dyal navbar */
+
 nav {
     background-color: #333;
 }
 
-/* UL: list dyal links, ma fihach points */
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -17,12 +22,12 @@ nav ul {
     overflow: hidden;
 }
 
-/* LI: khalli links yjiw f wahed satar */
+
 nav li {
     float: left;
 }
 
-/* Links: l'onstyle dyal les liens */
+
 nav a {
     display: block;
     color: white;
@@ -31,7 +36,7 @@ nav a {
     text-decoration: none;
 }
 
-/* Hover: mlli tdir souris 3la link */
+
 nav a:hover {
     background-color: #555;
 }
