@@ -3,31 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
   color: #222;
+  padding-top: 80px; 
+  p {
+     font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  }
+  }
+  h1 {
+     color: #000;
+  font-size: 2em;
+  margin-bottom: 15px;
   text-align: center;
-  padding-top: 80px; /* space for navbar */
-}
+  }
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: blue;
+  background-color: black; 
   height: 80px;
-  line-height: 80px; /* centers vertically */
+    text-align: center;
+  line-height: 80px; 
   text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
+
 .logo {
-  color: white;
+  color: white; 
   font-size: 1.8em;
   font-weight: bold;
   display: inline-block;
   margin-right: 50px;
   vertical-align: middle;
+  letter-spacing: 1px;
 }
+
+
 nav ul {
   display: inline-block;
   list-style: none;
@@ -38,16 +57,14 @@ nav ul li {
   display: inline-block;
   margin: 0 15px;
 }
-
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: white; 
   font-weight: 500;
   transition: 0.3s;
 }
-
 nav ul li a:hover {
-  color: yellow;
+  color: yellow; 
 }
 @media (max-width: 768px) {
   nav {
