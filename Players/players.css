@@ -3,19 +3,18 @@
     padding: 0px;
 
 }
-
 body{
         background-color:#37003c;
  header {      
         nav {
             background-color:#480024 ;
-            height: 80px;
+            height: 90px;
             ul {
                 text-align: center;
                 li {
                     display: inline-block;
                     list-style: none;  
-                    margin:40px 40px;
+                    margin:0px 30px;
                     a{
                         color: rgb(232, 236, 236);
                         text-decoration:none;
@@ -23,6 +22,7 @@ body{
                          font-family: Arial, Helvetica, sans-serif;
 
                     }
+                    
                 }
                 #language{
                     a{
@@ -30,6 +30,9 @@ body{
                     color: rgba(27, 2, 255, 0.329);
                     padding: 3px;}
                 }
+                 #Logo{
+                  height: 70px;
+     }
             }
 
         }
@@ -37,19 +40,39 @@ body{
  
     #H1{
     margin: 10px 0px;
-    padding: 10px ;
+    padding:14px;
     color: rgb(248, 244, 244);
-    background-color: #0060a9;}
+    background-image: url('logo2.png');
+  background-size: cover;       
+  background-position: center;
+  background-repeat: no-repeat; 
+}
 
-    .button{
-         display: inline-block;
-         background-color: #7e2eac;
 
-    }
+    #desbutton {
+  background-color: #7e2eac;
+  padding: 15px;
+}
+
+.filter {
+  margin:0px 80px;
+  display: inline-block;  
+  vertical-align: top;     
+  color: white;
+  text-align: left;
+}
+
+.filter h2 {
+  background-color: #d2a4ff;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
     table,th,td{
+        margin-top:20px ;
         background-color: white;
-
           border:1px solid black;
           
     }
@@ -57,11 +80,16 @@ body{
         width: 100%;
     }
     
-    #photo1{
+    #buttonflo{
+      text-align: center;
+    }
 
-                 border:1px solid black;
-                 height: 80px;
-                 margin-right:60px ;
+    #photo{
+
+    }
+    #footer1{
+        margin-top: 20px;
+        text-align: center;
     }
 }
 

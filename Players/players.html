@@ -9,7 +9,7 @@
     <header>
  <nav>
         <ul>
-            <li><a href="logo.html"><img src="">  logo</a></li>
+            <li><a href="../home/index.html"><img src="Logo.png" id="Logo"> </a></li>
             <li><a href="../home/index.html">Home Page</a></li>
               <li><a href="../news/news.html">news</a></li>
             <li><a href="../Players/players.html">players</a></li>
@@ -20,47 +20,42 @@
     </nav>
     </header>
 <h1 id="H1">Players</h1>
-<div class="button">
-<h2>Clubs</h2>
-<input type="checkbox"  id="inp1">
-  <label for="inp1"> Arsenal</label><br>
-  <input type="checkbox"  id="inp2">
-  <label for="inp2"> Aston Villa</label><br>
-  <input type="checkbox"  id="inp3">
-  <label for="inp3"> Bournemouth </label><br>
-  <input type="checkbox"  id="inp4">
-  <label for="inp4"> Brentford </label><br>
-  <input type="checkbox"  id="inp5">
-  <label for="inp5"> Brighton and Hove Albion </label>
-
-<h2> Positions </h2>
-
-<input type="checkbox" id="pos1" name="position" value="Goalkeeper">
-<label for="pos1">Goalkeeper</label><br>
-
-<input type="checkbox" id="pos2" name="position" value="Defender">
-<label for="pos2">Defender</label><br>
-
-<input type="checkbox" id="pos3" name="position" value="Midfielder">
-<label for="pos3">Midfielder</label><br>
-
-<input type="checkbox" id="pos4" name="position" value="Forward">
-<label for="pos4">Forward</label><br>
 
 
-<h2> Seasons </h2>
-<select name="radio" id="radio">
-  <option value="">Forward</option>
-  <option value="2000/01">2000/01</option>
-  <option value="2001/02">2001/02</option>
-  <option value="2002/03">2002/03</option>
-  <option value="2003/04">2003/04</option>
-  <option value="2004/05">2004/05</option>
-  <option value="2005/06">2005/06</option>
-  <option value="2006/07">2006/07</option>
-</select>
+<div id="desbutton">
+  <div class="filter">
+    <h2>Clubs</h2>
+    <label><input type="checkbox"> Arsenal</label><br>
+    <label><input type="checkbox"> Aston Villa</label><br>
+    <label><input type="checkbox"> Bournemouth</label><br>
+    <label><input type="checkbox"> Brentford</label><br>
+  </div>
+
+  <div class="filter">
+    <h2>Positions</h2>
+    <label><input type="checkbox"> Goalkeeper</label><br>
+    <label><input type="checkbox"> Defender</label><br>
+    <label><input type="checkbox"> Midfielder</label><br>
+    <label><input type="checkbox"> Forward</label><br>
+  </div>
+
+  <div class="filter">
+    <h2>Seasons</h2>
+          <input type="radio" id="rad1"> 
+          <label for="rad1">2000/01</label><br> 
+          <input type="radio" id="rad2"> 
+          <label for="rad2">2001/02</label><br> 
+          <input type="radio" id="rad3"> 
+          <label for="rad3">2002/03</label><br> 
+          <input type="radio" id="rad4"> 
+          <label for="rad4">2003/04</label><br> 
+          <input type="radio" id="rad5">
+           <label for="rad5">2004/05</label><br> 
+           <input type="radio" id="rad6"> 
+           <label for="rad6">2005/06</label><br> 
+           <input type="radio" id="rad7"> <label for="rad7">2006/07</label>
+  </div>
 </div>
-
 
 <table >
 <tr>
@@ -72,7 +67,7 @@
 
 </tr>
 <tr id="buttonflo">
-  <td> <img src="achrafhakimi.jpg" alt="photo achrafhakimi" id="photo1"> <a href="#"> Achraf Hakimi</a> </td>
+  <td id="photo">  <a href="#"> Achraf Hakimi</a> </td>
   <td><a href="#">Leeds United</a> </td>
     <td>Midfielder </td>
       <td>United States </td>
@@ -84,7 +79,7 @@
 </table>
 
 
-<footer>
+<footer id="footer1">
   <p>© PREMIER LEAGUE 2025<br>
   <a href="mailto:hege@example.com">hege@example.com</a></p>
 </footer>
