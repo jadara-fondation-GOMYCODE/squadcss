@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0;
-}
+
 /*body {
     header {      
         nav {
@@ -32,11 +29,7 @@
     }
 }*/
 
-header {
-  background-color: #1a1a1a; /* dark gray */
-  color: #ffffff;     
-  padding: 10px 20px;
-}
+
 
 .logo {
   display: inline-block;
