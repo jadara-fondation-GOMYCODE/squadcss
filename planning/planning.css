@@ -16,7 +16,6 @@ h1 {
   max-width: 900px;
   text-align: justify;
 }
-
 h1 {
   color: #000;
   font-size: 2em;
@@ -44,25 +43,21 @@ nav {
   vertical-align: middle;
   letter-spacing: 1px;
 }
-
 nav ul {
   display: inline-block;
   list-style: none;
   vertical-align: middle;
 }
-
 nav ul li {
   display: inline-block;
   margin: 0 15px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
   transition: 0.3s;
 }
-
 nav ul li a:hover {
   color: yellow;
 }
@@ -72,10 +67,7 @@ nav ul li a:hover {
     line-height: normal;
     padding: 15px 0;
   }
-  .logo {
-    display: block;
-   
-  }
+
   nav ul li {
     display: block;
     margin: 10px 0;
@@ -86,13 +78,11 @@ nav ul li a:hover {
   margin: 40px auto;
   padding: 0 16px;
 }
-
 .match-date {
   font-weight: 600;
   color: #666;
   margin-bottom: 10px;
 }
-
 .match-card {
   display: flex;
   justify-content: space-between;
@@ -103,13 +93,11 @@ nav ul li a:hover {
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   border: 1px solid #eee;
 }
-
 .match-left {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
-
 .team {
   display: flex;
   align-items: center;
@@ -118,14 +106,12 @@ nav ul li a:hover {
   font-size: 1.4rem;
   color: #0a2540;
 }
-
 .team img {
   width: 30px;
   height: 30px;
   object-fit: contain;
   border-radius: 4px;
 }
-
 .match-right {
   display: flex;
   flex-direction: column;
@@ -134,13 +120,11 @@ nav ul li a:hover {
   padding-left: 24px;
   border-left: 1px solid #e9ecef;
 }
-
 .kickoff {
   font-size: 1.6rem;
   font-weight: 800;
   color: #0a2540;
 }
-
 .details-btn {
   display: inline-block;
   text-decoration: none;
@@ -151,7 +135,6 @@ nav ul li a:hover {
   color: #168a00;
   transition: transform .08s ease, filter .2s ease;
 }
-
 .details-btn:hover {
   filter: brightness(0.96);
   transform: translateY(-1px);
