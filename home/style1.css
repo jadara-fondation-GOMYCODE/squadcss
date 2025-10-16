@@ -34,11 +34,11 @@ ul{
  list-style: square; /* square bullets */
 }
 
-.nextforengland{
+*/*.nextforengland{
     font-family: 'Courier New', monospace;
 
+*/
 
-}
 
 p {
   margin-top: 100px;
@@ -72,7 +72,7 @@ p {
     height: 100px;
     background: coral;
     margin: 10px;
-  }*/
+  }
    img {
     display: block;;
     margin: 0 auto;
@@ -87,11 +87,13 @@ p {
     video {
     display: block;
     margin: 0 auto;
-    width: 500px; /* optional */
-  }
+    width: 500px; 
+    /* optional */
+  
 
    h1 {
     text-align: center;
+    font-size: 10px;
   }
 
     p {
@@ -104,3 +106,5 @@ p {
   h3 {
     text-align: center;
   }
+
+  
