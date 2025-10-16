@@ -1,7 +1,7 @@
 
 body {
 
-  background-image: url("OIP\ \(1\).webp");
+  background-image: url(FRMF_Logo-500.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -40,4 +40,24 @@ nav a {
 
 nav a:hover {
     background-color: #555;
+}
+.newstitle {
+    font-family: initial;
+    text-align: center;
+text-transform: uppercase;
+text-shadow: 2px 2px; 
+
+}
+
+.winning {
+font-family: fantasy;
+text-align: center;
+ font-size: 18px;
+margin-bottom: 20px;
+
+
+
+
+
+   
 }
